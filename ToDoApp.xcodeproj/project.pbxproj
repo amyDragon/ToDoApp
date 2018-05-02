@@ -12,6 +12,7 @@
 		7AEC6C06208CD5C2003BFA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEC6C04208CD5C2003BFA61 /* Main.storyboard */; };
 		7AEC6C08208CD5C3003BFA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AEC6C07208CD5C3003BFA61 /* Assets.xcassets */; };
 		7AEC6C0B208CD5C3003BFA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEC6C09208CD5C3003BFA61 /* LaunchScreen.storyboard */; };
+		7AEC6C22208F896D003BFA61 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC6C21208F896D003BFA61 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7AEC6C07208CD5C3003BFA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AEC6C0A208CD5C3003BFA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AEC6C0C208CD5C3003BFA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AEC6C21208F896D003BFA61 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		7AEC6BF4208CD5C2003BFA61 = {
 			isa = PBXGroup;
 			children = (
+				7AEC6C20208F8958003BFA61 /* Modal */,
 				7AEC6BFF208CD5C2003BFA61 /* ToDoApp */,
 				7AEC6BFE208CD5C2003BFA61 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				7AEC6C0C208CD5C3003BFA61 /* Info.plist */,
 			);
 			path = ToDoApp;
+			sourceTree = "<group>";
+		};
+		7AEC6C20208F8958003BFA61 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				7AEC6C21208F896D003BFA61 /* Item.swift */,
+			);
+			path = Modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEC6C03208CD5C2003BFA61 /* TodoListViewController.swift in Sources */,
+				7AEC6C22208F896D003BFA61 /* Item.swift in Sources */,
 				7AEC6C01208CD5C2003BFA61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
